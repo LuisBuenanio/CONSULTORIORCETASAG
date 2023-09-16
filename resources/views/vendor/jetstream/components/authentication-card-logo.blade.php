@@ -1,5 +1,5 @@
 <a href="/">
-    <img src="img/logos/logo.png" alt="">
+    <img src="img/logos/logofinal.png" alt="">
 </a>
 
 
