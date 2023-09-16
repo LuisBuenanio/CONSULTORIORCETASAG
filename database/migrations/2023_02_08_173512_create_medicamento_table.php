@@ -17,9 +17,8 @@ return new class extends Migration
             $table->id(); 
             $table->string('nombre'); 
             $table->string('comercial')->nullable();                    
-            $table->string('concentracion')->nullable();
-            $table->timestamps();
-
+            $table->string('concentracion')->nullable();              
+            $table->string('presentacion')->nullable();
         });
     }
 

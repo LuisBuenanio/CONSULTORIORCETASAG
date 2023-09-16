@@ -5,7 +5,6 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Http\Requests\Diagnosticoscie10Request;
-use App\Models\Categoriascie10;
 use App\Models\Diagnosticoscie10;
 use Illuminate\Support\Facades\Cache;
 
@@ -27,9 +26,9 @@ class Diagnosticoscie10Controller extends Controller
     }
      public function create()
     {
-        $categoriascie10 = Categoriascie10::pluck( 'clave', 'id');
+        ;
         
-        return view('admin.diagnosticoscie10.create', compact('categoriascie10'));
+        return view('admin.diagnosticoscie10.create');
  
     }
 
@@ -45,8 +44,8 @@ class Diagnosticoscie10Controller extends Controller
     
     public function edit(Diagnosticoscie10 $diagnosticoscie10)
     {
-        $categoriascie10 = Categoriascie10::pluck( 'clave', 'id');
-        return view('admin.diagnosticoscie10.edit' , compact('diagnosticoscie10', 'categoriascie10'));
+        
+        return view('admin.diagnosticoscie10.edit' , compact('diagnosticoscie10'));
   
     }
 

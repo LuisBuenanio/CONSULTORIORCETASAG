@@ -15,7 +15,7 @@ return new class extends Migration
     {
         Schema::create('paciente', function (Blueprint $table) {
             $table->id();
-            $table->string('cedula', 10)->nullable(); 
+            $table->string('cedula', 13)->nullable(); 
             $table->string('nombre');                         
             $table->date('fecha_nacimiento')->nullable();               
             $table->integer('edad')->nullable();  

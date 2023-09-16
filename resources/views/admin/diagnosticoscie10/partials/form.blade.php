@@ -18,15 +18,6 @@
 
 </div>
 
-{{-- <div class="form-group">
-    {!! Form::label('categoriascie10_id', 'Categoría CIE-10 :') !!}
-    {!! Form::select('categoriascie10_id', $categoriascie10, null, ['class' => 'form-control']) !!} 
-
-    @error('categoriascie10_id')
-        <small class="text-danger">{{$message}}</small>
-    @enderror
-
-</div> --}}
 
 
 
